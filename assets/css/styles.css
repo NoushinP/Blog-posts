@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+#root {
+    background-color: rgb(229, 218, 200);
+    text-align: center;
+    font-weight: bold;
+}
+
 body {
     background-color: rgb(255, 255, 255);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -15,7 +21,7 @@ body {
     margin: 80px auto;
     width: 50%;
     height: 200pt;
-    background-color: #f0ead6;
+    background-color: #f9a2d3;
   }
 
 body header form {
@@ -29,11 +35,11 @@ body header form {
     align-items: center;
     width: 50%;
     height: 200pt;
-    background-color: #dbd1ae;
+    background-color: #df93d0;
 }
 
 .round {
-    background-color: rgb(101, 152, 214);
+    background-color: rgb(147, 126, 148);
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -47,5 +53,10 @@ p {
     text-align: center;
     font-weight: bold;
 
+}
+
+form div:nth-of-type(odd){
+    float:left;
+    min-width: 100px;
 }
 
